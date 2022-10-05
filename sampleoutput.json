@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Rob Picheta",
+      "title": "Russian forces have staged illegal 'referendums' in Ukraine. What comes next? - CNN",
+      "description": "Pro-Russian authorities have held so-called referendums in four regions of Ukraine over recent days and, while the votes are illegal and have been universally dismissed as \"a sham\" by Ukraine and Western nations, there are fears that they could create a prete…",
+      "url": "https://www.cnn.com/2022/09/27/europe/ukraine-russia-referendum-explainer-intl/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220923082042-02-ukraine-referendum.jpg?q=w_800,c_fill",
+      "publishedAt": "2022-09-28T09:58:00Z",
+      "content": "Pro-Russian authorities have held so-called referendums in four regions of Ukraine over recent days and, while the votes are illegal and have been universally dismissed as a sham by Ukraine and Weste… [+10748 chars]"
+    },
+    {
+      "source": { "id": "the-washington-post", "name": "The Washington Post" },
+      "author": "Rachel Pannett, Sangam Prasai",
+      "title": "U.S. ski-climber Hilaree Nelson found dead after fall on Himalayan peak - The Washington Post",
+      "description": "The adventurer, who set records and climbed Mount Everest, fell near the summit of Manaslu, a peak in the Nepalese Himalayas.",
+      "url": "https://www.washingtonpost.com/world/2022/09/28/ski-mountaineer-missing-nepal-hilaree-nelson/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SAFIS7B6FAI63DDOSODL27GYEY.jpg&w=1440",
+      "publishedAt": "2022-09-28T09:48:07Z",
+      "content": "Nepalese rescuers discovered the body of a well-known American ski-climber on Wednesday, two days after she went missing while skiing down the worlds eighth-highest peak in Nepal.\r\nHilaree Nelson, 49… [+3840 chars]"
+    },
+    {
+      "source": { "id": null, "name": "GamesRadar+" },
+      "author": "Dustin Bailey",
+      "title": "Hugh Jackman returning as Wolverine in Deadpool 3 as release date confirmed - Gamesradar",
+      "description": "Wolverine is coming to the MCU",
+      "url": "https://www.gamesradar.com/deadpool-3-release-date/",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/qQGkgyAEHXGXrWGpxQB2DD-1200-80.jpg",
+      "publishedAt": "2022-09-28T08:53:01Z",
+      "content": "Deadpool 3 has been officially announced and Hugh Jackman is back as Wolverine. The actor last appeared as the X-Man in Logan, which was thought to be his last appearance as the clawed hero. Now, Wol… [+1688 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Sophie Kiderlin",
+      "title": "10-year Treasury yield tops 4%, soaring to 14-year high - CNBC",
+      "description": "The benchmark 10-year Treasury briefly topped 4% on Wednesday as markets took in Federal Reserve speaker commentary that hinted at further interest rate hikes.",
+      "url": "https://www.cnbc.com/2022/09/28/10-year-treasury-yield-tops-4percent-soaring-to-14-year-high.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107117729-1663084080931-gettyimages-1421309838-032a0729_ba0e61d1-8eed-40a5-9968-107f07003579.jpeg?v=1664353240&w=1920&h=1080",
+      "publishedAt": "2022-09-28T08:20:40Z",
+      "content": "The benchmark 10-year Treasury briefly topped 4% on Wednesday, reaching levels not seen since 2008, as markets took in Federal Reserve speaker commentary that hinted at further interest rate hikes.\r\n… [+1306 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": null,
+      "title": "U.S. VP Harris condemns 'disturbing' Chinese actions - Reuters",
+      "description": "U.S. Vice President Kamala Harris condemned on Wednesday \"disturbing\" actions by China in the Pacific while pledging to deepen \"unofficial ties\" with Taiwan, days after the U.S. administration pledged its forces would defend the island.",
+      "url": "https://www.reuters.com/world/us-vp-harris-push-against-chinas-taiwan-policy-japan-speech-2022-09-27/",
+      "urlToImage": "https://www.reuters.com/resizer/4dmOb1vYiLlMCvpM6noUE0fkGo8=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/GHANJGPKIVPX5AW5LQSQOEVJ7I.jpg",
+      "publishedAt": "2022-09-28T08:14:00Z",
+      "content": "YOKOSUKA, Japan, Sept 28 (Reuters) - U.S. Vice President Kamala Harris condemned on Wednesday \"disturbing\" actions by China in the Pacific while pledging to deepen \"unofficial ties\" with Taiwan, days… [+3902 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Tampa Bay Times" },
+      "author": "Langston Taylor",
+      "title": "Hurricane Ian in Florida: Forecast track, cone and more - Tampa Bay Times",
+      "description": "See the storm’s latest cone and satellite image.",
+      "url": "https://www.tampabay.com/hurricane/2022/09/27/track-hurricane-ians-path-florida/",
+      "urlToImage": "https://www.tampabay.com/resizer/CmOJCUhUUK0V2IZCINDZdpeJeaY=/1200x675/smart/cloudfront-us-east-1.images.arcpublishing.com/tbt/LLLE2AHBZBDF3FE637HXG4EQBA.jpeg",
+      "publishedAt": "2022-09-28T08:09:25Z",
+      "content": null
+    },
+    {
+      "source": { "id": "the-washington-post", "name": "The Washington Post" },
+      "author": "Praveena Somasundaram",
+      "title": "Russia-Ukraine war latest updates - The Washington Post",
+      "description": "As referendums in Russian-controlled areas of Ukraine ended, British intelligence said Russian President Vladimir Putin could announce the annexation of four occupied regions as early as Friday.",
+      "url": "https://www.washingtonpost.com/world/2022/09/28/russia-ukraine-war-latest-updates/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/W2OMC2B6LII63DDOSODL27GYEY.jpg&w=1440",
+      "publishedAt": "2022-09-28T08:00:00Z",
+      "content": "Return to menuStaged referendums yield expected result as Russia readies annexations. Putins plan to illegally annex four partially occupied regions in Ukraine lurched forward on Tuesday, as Russian … [+643 chars]"
+    },
+    {
+      "source": { "id": null, "name": "TMZ" },
+      "author": "TMZ Staff",
+      "title": "Jeffrey Dahmer Prosecutor Denies Racial & Homophobic Bias From Cops - TMZ",
+      "description": "The prosecutor who put Jeffrey Dahmer behind bars is pushing back against the narrative Netflix puts forth in its new show -- namely, that cops had it out for gay and Black people.",
+      "url": "https://www.tmz.com/2022/09/28/jeffrey-dahmer-prosecutor-denies-racial-homophobic-bias-police/",
+      "urlToImage": "https://imagez.tmz.com/image/d6/16by9/2022/09/27/d6d7d7220b8d43518d81f3de848d205f_xl.jpg",
+      "publishedAt": "2022-09-28T08:00:00Z",
+      "content": "The prosecutor who put Jeffrey Dahmer behind bars is pushing back against the narrative Netflix puts forth in its new show -- namely, that cops ignored obvious clues because the case involved gay and… [+1952 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Aya Elamroussi, Patrick Oppmann, Heather Chen",
+      "title": "Efforts to restore power in Cuba are underway after Hurricane Ian triggered an island-wide blackout - CNN",
+      "description": "Crews in Cuba are working to restore power for millions Wednesday after Hurricane Ian battered the western region with high winds and dangerous storm surge, causing an island-wide blackout.",
+      "url": "https://www.cnn.com/2022/09/27/americas/hurricane-ian-cuba-blackout-intl-hnk/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220928043154-04-hurricane-ian-cuba-wednesday.jpg?q=w_800,c_fill",
+      "publishedAt": "2022-09-28T07:08:00Z",
+      "content": "Editors Note: Affected by the storm? Use CNNs lite site for low bandwidth.\r\nAre you affected by Hurricane Ian? Text or WhatsApp your stories to CNN +1 332-261-0775.\r\n¿Te ha afectado el huracán Ian? C… [+2535 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Yahoo Entertainment" },
+      "author": "Kevin Iole",
+      "title": "Is Bo Nickal the LeBron James of MMA? UFC may have won the lottery with newest signing - Yahoo Sports",
+      "description": "Nickal is so talented, so confident and so impressive that after finishing Donovan Beard in just 52 seconds with a triangle choke Tuesday at Apex to finally ...",
+      "url": "https://sports.yahoo.com/is-bo-nickal-the-lebron-james-of-mma-ufc-may-have-won-the-lottery-with-newest-signing-043759082.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/q.4uTx4pAsFUTVWeVCFCqA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTc-/https://s.yimg.com/os/creatr-uploaded-images/2022-09/3d2a03f0-3ee5-11ed-bfeb-be2f2e1a1332",
+      "publishedAt": "2022-09-28T04:37:00Z",
+      "content": "LAS VEGAS There are first overall draft picks, and then there are guys like LeBron James, Peyton Manning and Sidney Crosby. They are the greats among the great, guys who arent only stars but change t… [+4097 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Jesse Pound",
+      "title": "Stock futures fall after S&P 500 hits new low for the year; 10-year Treasury yield briefly tops 4% - CNBC",
+      "description": "The S&P 500 hit a new intraday low on Tuesday as stocks continue to struggle in the face of rising interest rates.",
+      "url": "https://www.cnbc.com/2022/09/27/stock-market-news-open-to-close-futures-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107122978-1663864521521-gettyimages-1425998138-img_5721_a824857f-5440-4a26-901f-550545ff6941.jpeg?v=1664316206&w=1920&h=1080",
+      "publishedAt": "2022-09-28T04:18:00Z",
+      "content": "Stock futures were lower on Wednesday morning after a relief rally failed during regular trading hours and the S&amp;P 500 hit a new intraday low for the year.\r\nFutures tied to the Dow Jones Industri… [+1210 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Variety" },
+      "author": "J. Kim Murphy",
+      "title": "Marvel’s ‘Blade’ Loses Director Bassam Tariq Two Months Ahead of Production - Variety",
+      "description": "Bassam Tariq has exited his role as director of Marvel Studios’ “Blade,” Variety has confirmed. Tariq’s departure comes as a shock, as production was set to begin in November on Marvel’s upcoming feature about the iconic comic book vampire slayer. The film is…",
+      "url": "https://variety.com/2022/film/news/marvel-blade-director-exits-bassam-tariq-1235386317/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2022/09/bassam-tariq-marvel.jpg?w=1000",
+      "publishedAt": "2022-09-28T03:32:00Z",
+      "content": "Bassam Tariq has exited his role as director of Marvel Studios’ “Blade,” Variety has confirmed.\r\nTariq’s departure comes as a shock, as production was set to begin in November on Marvel’s upcoming fe… [+2321 chars]"
+    },
+    {
+      "source": { "id": null, "name": "SciTechDaily" },
+      "author": null,
+      "title": "Researchers Discover a “Diamond Factory” Deep Inside Earth - SciTechDaily",
+      "description": "Researchers find rust and diamonds at the Earth's core-mantle boundary. On the Earth's surface, steel rusts due to water and air. But what about deep inside the interior of the Earth? The biggest carbon storage on Earth is the Earth's core, where 90% of the c…",
+      "url": "https://scitechdaily.com/researchers-discover-a-diamond-factory-deep-inside-earth/",
+      "urlToImage": "https://scitechdaily.com/images/Diamond-Electric.jpg",
+      "publishedAt": "2022-09-28T03:09:55Z",
+      "content": "ByArizona State UniversitySeptember 27, 2022\r\nScientists have discovered that much more carbon exists in the mantle than predicted.\r\nResearchers find rust and diamonds at the Earths core-mantle bound… [+4592 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": null,
+      "title": "Apple drops plan to boost iPhone production as demand falters-Bloomberg - Reuters",
+      "description": "Apple Inc is dropping plans to increase production of its new iPhones this year after an anticipated surge in demand failed to materialize, Bloomberg News <a href=\"https://bloom.bg/3Rj2CGW\" target=\"_blank\">reported</a> on Tuesday, citing people familiar with …",
+      "url": "https://www.reuters.com/technology/apple-drops-iphone-production-increase-plans-demand-falters-bloomberg-news-2022-09-28/",
+      "urlToImage": "https://www.reuters.com/resizer/Yrv7sjXNVsuTYyq1j3AtNrG99oE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/YXYEKF2OM5IH5NFJR5SE2SOKCI.jpg",
+      "publishedAt": "2022-09-28T02:54:00Z",
+      "content": "Sept 27 (Reuters) - Apple Inc is dropping plans to increase production of its new iPhones this year after an anticipated surge in demand failed to materialize, Bloomberg News reported on Tuesday, cit… [+1214 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Page Six" },
+      "author": "Alix Breeden",
+      "title": "Maisie Williams: I had a traumatic relationship with my dad - Page Six",
+      "description": "“Ever since I can remember I really struggled with sleeping, and I think a lot of the traumatic things that were happening,” the “Game of Thrones” star said.",
+      "url": "https://pagesix.com/2022/09/27/maisie-williams-talks-about-her-traumatic-childhood/",
+      "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2022/09/maisie-williams-traumatic-childhood.jpg?quality=75&strip=all&w=1200",
+      "publishedAt": "2022-09-28T02:39:00Z",
+      "content": "Maisie Williams revealed she had a “traumatic” childhood, which was fueled by her father’s behavior.\r\n“As a young child before the age of 8, I had a traumatic relationship with my dad,” the “Game of … [+3447 chars]"
+    },
+    {
+      "source": { "id": "the-washington-post", "name": "The Washington Post" },
+      "author": "Joseph Menn",
+      "title": "Racist message sent to iPhones via Apple News from hacked Fast Company site - The Washington Post",
+      "description": "Hackers broke in to the network of Fast Company magazine Tuesday evening and sent racist push notifications to iPhone users.",
+      "url": "https://www.washingtonpost.com/technology/2022/09/27/fast-company-hack-apple-news/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MU5HPMR6SAI63DDOSODL27GYEY.jpg&w=1440",
+      "publishedAt": "2022-09-28T02:10:06Z",
+      "content": "Hackers breached internal systems at Fast Company magazine Tuesday evening, defacing the companys main news site and sending racist push notifications through Apple News to iPhone users.\r\nThe two-sen… [+1432 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": null,
+      "title": "White House hits GOP over removal of Manchin permitting reform - The Hill",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMic2h0dHBzOi8vdGhlaGlsbC5jb20vaG9tZW5ld3MvYWRtaW5pc3RyYXRpb24vMzY2NDEyNi13aGl0ZS1ob3VzZS1oaXRzLWdvcC1vdmVyLXJlbW92YWwtb2YtbWFuY2hpbi1wZXJtaXR0aW5nLXJlZm9ybS_SAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2022-09-28T01:25:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": "associated-press", "name": "Associated Press" },
+      "author": null,
+      "title": "Inmate serving life for fatal Vegas bombing escapes prison - The Associated Press",
+      "description": "LAS VEGAS (AP) — Authorities were searching Tuesday for a 42-year-old convicted bombmaker who escaped from a Nevada prison where he was serving a life sentence for a deadly 2007 explosion outside a Las Vegas Strip resort.",
+      "url": "https://apnews.com/eba4c7bc2913e0173ca25b166505c7ab",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/2df880b385a84fa08fe026b391db3607/3000.jpeg",
+      "publishedAt": "2022-09-28T01:18:45Z",
+      "content": "LAS VEGAS (AP) Authorities were searching Tuesday for a 42-year-old convicted bombmaker who escaped from a Nevada prison where he was serving a life sentence for a deadly 2007 explosion outside a Las… [+1654 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": null,
+      "title": "Biden speaks with DeSantis about Hurricane Ian - The Hill",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiY2h0dHBzOi8vdGhlaGlsbC5jb20vaG9tZW5ld3MvYWRtaW5pc3RyYXRpb24vMzY2NDA1NC1iaWRlbi1zcGVha3Mtd2l0aC1kZXNhbnRpcy1hYm91dC1odXJyaWNhbmUtaWFuL9IBAA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2022-09-28T00:20:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": "engadget", "name": "Engadget" },
+      "author": "https://www.engadget.com/about/editors/karissa-bell",
+      "title": "Elon Musk and Twitter are now fighting about Signal messages - Engadget",
+      "description": "Lawyers for Twitter argued that Elon Musk has withheld messages, including some sent via encrypted messaging app Signal..",
+      "url": "https://www.engadget.com/elon-musk-twitter-signal-000946031.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-09/1d347650-3eba-11ed-ab7b-6f7724053f9e",
+      "publishedAt": "2022-09-28T00:12:35Z",
+      "content": "Elon Musks private messages could once again land him in hot water in his legal fight with Twitter. Lawyers for the two sides once again faced off in Delawares Court of Chancery ahead of an October t… [+2640 chars]"
+    }
+  ]
+}
