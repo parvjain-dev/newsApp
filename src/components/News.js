@@ -2,7 +2,9 @@
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+import InfiniteScroll from "react-infinite-scroll-component";
+
 export default class News extends Component {
   // articles = [
   //   {
@@ -50,134 +52,122 @@ export default class News extends Component {
 
   //proptypes
 
-  static defaultProps={
-    country:'us',
-    pagesize:6,
-    category:'general'
-  }
-  static propTypes={
+  static defaultProps = {
+    country: "us",
+    pagesize: 6,
+    category: "general",
+  };
+  static propTypes = {
     country: PropTypes.string,
-    pagesize:PropTypes.number,
-    category:PropTypes.string
-  }
+    pagesize: PropTypes.number,
+    category: PropTypes.string,
+  };
+
+  fetchMoreData = async () => {
+    // a fake async api call like which sends
+    // 20 more records in 1.5 secs
+      this.setState({page:this.state.page+1})
+      const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=${ this.state.page + 1}&pageSize=${this.props.pagesize}`;
+     let data = await fetch(url);
+    let parsedData = await data.json();
+    //here parseddata have json format data of url then we are setting state of articles and we are getting totalresults
+    this.setState({
+      articles: this.state.articles.concat(parsedData.articles),
+      totalResults: parsedData.totalResults,
+    });
+
+  };
+
+   
+
 
   //capitalize function
-  capitalizeFirstLetter = (string) =>{
-    return string.charAt(0).toUpperCase()+string.slice(1);
-  }
+  capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
   constructor(props) {
     super(props);
     this.state = {
       //articles: this.articles,
       articles: [],
-      loading: false,
+      loading: true,
       page: 1,
-       
-    }
-    document.title = this.capitalizeFirstLetter(this.props.category)+"-by UpdateWithMe";
+      totalResults:0
+    };
+    document.title =
+      this.capitalizeFirstLetter(this.props.category) + "-by UpdateWithMe";
   }
 
   async componentDidMount() {
-    // console.log("mount render");
-    {this.setState({loading:true})};
-    let url =
-      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=1&pageSize=${this.props.pagesize}`;
+   
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=1&pageSize=${this.props.pagesize}`;
     let data = await fetch(url);
     let parsedData = await data.json();
-   // console.log(parsedData);
+    
 
-    //here parseddata have json format data of url then we are setting state of articles and we are getting totalresults 
-    this.setState({loading:false, articles: parsedData.articles,totalResults:parsedData.totalResults });
+    //here parseddata have json format data of url then we are setting state of articles and we are getting totalresults
+    this.setState({
+      loading: false,
+      articles: parsedData.articles,
+      totalResults: parsedData.totalResults,
+    });
   }
 
-  handlePrevious = async () => {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=${this.state.page - 1}&pageSize=${this.props.pagesize}`;
-    {this.setState({loading:true})};
-    let data = await fetch(url);
-    let parsedData = await data.json()
-    console.log(parsedData);  
-    this.setState({
-      loading:false,
-        page: this.state.page - 1,
-        articles: parsedData.articles
-    })
-    
-  };
-  handleNextclick = async () => {
-    
-    //handling if articles are over
-    if(this.state.page+1>Math.ceil(this.state.totalResults/this.props.pagesize)){
 
-   }
-      else{
-
-       let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=${this.state.page + 1}&pageSize=${this.props.pagesize}`;
-       {this.setState({loading:true})};
-       let data = await fetch(url);
-       let parsedData = await data.json()
-      //  console.log(parsedData);  
-
-       this.setState({
-        loading:false,
-           page: this.state.page + 1,
-           articles: parsedData.articles
-       })
-      }
-
-    
-  };
 
   render() {
     //console.log("render");
     return (
       <>
         <div className="container my-3">
-          <h1 className="text-center">Top {this.capitalizeFirstLetter(this.props.category)} headlines</h1>
+          <h1 className="text-center">
+            Top {this.capitalizeFirstLetter(this.props.category)} headlines
+          </h1>
 
-          {/* if loading is ture then show spinner  */}
-         {this.state.loading&& <Spinner/>}
-          <div className="row mx-auto m-auto">
-            {!this.state.loading && this.state.articles.map((element) => {
-              return (
-                <div className="col-md-4" key={element.url}>
-                  <NewsItem
-                    title={element.title?element.title.slice(0,30):""}
-                    //below code not working because some places description is null so, not able to slice
-                    // description={element.description.length()}
-                    description={
-                      element.description?element.description.slice(0,50):""
-                    }
-                    imgURL={element.urlToImage}
-                    newsURL={element.url}
-                    author = {element.author}
-                    publishedAt={element.publishedAt}
-                    source = {element.source.name}
-                  />
-                </div>
-              );
-            })}
-          </div>
-        <div className="container my-3 mx-auto">
-          <div className="d-flex justify-content-between">
-            <button
-            disabled={this.state.page<=1}
-              type="button"
-              className="btn btn-dark"
-              onClick={this.handlePrevious}
-            >
-            &larr;  Previous Page
-            </button>
-            <button
-            //next btn disable is not working
-            disabled={this.state.page+1>Math.ceil(this.state.totalResults/this.props.pagesize)}
-              type="button"
-              className="btn btn-dark"
-              onClick={this.handleNextclick}
-            >
-              Next Page &rarr;
-            </button>
-          </div>
-        </div>
+
+         {/* below spinner is for showing spinner in the starting */}
+          {this.state.loading&& <Spinner/>}
+          {/* WITH INFINITE SCROLL   */}
+          <InfiniteScroll
+            dataLength={this.state.articles.length}
+            next={this.fetchMoreData}
+            hasMore={this.state.articles.length!== this.state.totalResults}
+            loader={<Spinner/>}
+          >
+
+          {/* below container-fluid is for horizontal bar is for scroll bar but still problem is not solved  */}
+          <div className="container-fluid">
+            <div className="row mx-auto m-auto">
+            {this.state.articles.map((element,index) => {
+
+return( 
+         
+ <div className="col-md-4" key = {index}>
+                    <NewsItem
+                      title={element.title ? element.title.slice(0, 30) : ""}
+                      //below code not working because some places description is null so, not able to slice
+                      // description={element.description.length()}
+                      description={
+                        element.description
+                          ? element.description.slice(0, 50)
+                          : ""
+                      }
+                      imgURL={element.urlToImage}
+                      newsURL={element.url}
+                      author={element.author}
+                      publishedAt={element.publishedAt}
+                      source={element.source.name}
+                    />
+                  </div>
+              
+                );
+              })}
+            </div>
+            </div>
+          </InfiniteScroll>
+
+
+          
         </div>
       </>
     );
