@@ -54,7 +54,7 @@ export default class News extends Component {
     // a fake async api call like which sends
     // 20 more records in 1.5 secs
       this.setState({page:this.state.page+1})
-      const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=${ this.state.page + 1}&pageSize=${this.props.pagesize}`;
+      const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${ this.state.page + 1}&pageSize=${this.props.pagesize}`;
      let data = await fetch(url);
     let parsedData = await data.json();
     //here parseddata have json format data of url then we are setting state of articles and we are getting totalresults
@@ -87,7 +87,7 @@ export default class News extends Component {
 
   async componentDidMount() {
    this.props.setProgress(10);
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=1&pageSize=${this.props.pagesize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=1&pageSize=${this.props.pagesize}`;
     let data = await fetch(url);
     this.props.setProgress(10);
     let parsedData = await data.json();

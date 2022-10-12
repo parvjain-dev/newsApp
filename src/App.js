@@ -9,6 +9,8 @@ export default class App extends Component {
   state ={
     progress:0
   }
+   // apikey ="6e7f5f6fedb44570938a9c131812f94e"
+   apikey =process.env.REACT_APP_NEWS_API
   setProgress= (progress) => {
   this.setState({progress:progress})
   }
@@ -34,30 +36,30 @@ export default class App extends Component {
             <Route
               exact
               path="/"
-              element={<News setProgress={this.setProgress}key="general" country="in" category="general" />}
+              element={<News setProgress= {this.setProgress} apikey={this.apikey} key="general" country="in" category="general" />}
             />
             <Route
               exact
               path="/home"
-              element={<News setProgress={this.setProgress}key="general" country="in" category="general" />}
+              element={<News setProgress= {this.setProgress} apikey={this.apikey} key="general" country="in" category="general" />}
             />
 
             <Route
               exact
               path="/newsapp"
-              element={<News setProgress={this.setProgress}key="general" country="in" category="general" />}
+              element={<News setProgress= {this.setProgress} apikey={this.apikey} key="general" country="in" category="general" />}
             />
 
             <Route
               exact
               path="/sports"
-              element={<News setProgress={this.setProgress}key="sports" country="in" category="sports" />}
+              element={<News setProgress= {this.setProgress} apikey={this.apikey} key="sports" country="in" category="sports" />}
             />
 
             <Route
               exact
               path="/science"
-              element={<News setProgress={this.setProgress}key="science" country="in" category="science" />}
+              element={<News setProgress= {this.setProgress} apikey={this.apikey} key="science" country="in" category="science" />}
             />
 
             <Route
@@ -65,7 +67,7 @@ export default class App extends Component {
               path="/entertainment"
               element={
                 <News
-                setProgress={this.setProgress}
+                setProgress= {this.setProgress} apikey={this.apikey} 
                   key="entertainment"
                   country="in"
                   category="entertainment"
@@ -77,21 +79,21 @@ export default class App extends Component {
             <Route
               exact
               path="/business"
-              element={<News setProgress={this.setProgress}key="business" country="in" category="business" />}
+              element={<News setProgress= {this.setProgress} apikey={this.apikey} key="business" country="in" category="business" />}
             />
 
             <Route
               exact
               path="/technology"
               element={
-                <News setProgress={this.setProgress} key="technology" country="in" category="technology" />
+                <News setProgress= {this.setProgress} apikey={this.apikey}  key="technology" country="in" category="technology" />
               }
             />
 
             <Route
               exact
               path="/health"
-              element={<News setProgress={this.setProgress} key="health" country="in" category="health" />}
+              element={<News setProgress={this.setProgress} apikey={this.apikey} key="health" country="in" category="health" />}
             />
           </Routes>
         </Router>
