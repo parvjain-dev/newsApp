@@ -35,19 +35,6 @@ export default class News extends Component {
   //     content:
   //       "Nepalese rescuers discovered the body of a well-known American ski-climber on Wednesday, two days after she went missing while skiing down the worlds eighth-highest peak in Nepal.\r\nHilaree Nelson, 49… [+3840 chars]",
   //   },
-  //   {
-  //     source: { id: null, name: "GamesRadar+" },
-  //     author: "Dustin Bailey",
-  //     title:
-  //       "Hugh Jackman returning as Wolverine in Deadpool 3 as release date confirmed - Gamesradar",
-  //     description: "Wolverine is coming to the MCU",
-  //     url: "https://www.gamesradar.com/deadpool-3-release-date/",
-  //     urlToImage:
-  //       "https://cdn.mos.cms.futurecdn.net/qQGkgyAEHXGXrWGpxQB2DD-1200-80.jpg",
-  //     publishedAt: "2022-09-28T08:53:01Z",
-  //     content:
-  //       "Deadpool 3 has been officially announced and Hugh Jackman is back as Wolverine. The actor last appeared as the X-Man in Logan, which was thought to be his last appearance as the clawed hero. Now, Wol… [+1688 chars]",
-  //   },
   // ];
 
   //proptypes
@@ -99,9 +86,10 @@ export default class News extends Component {
   }
 
   async componentDidMount() {
-   
+   this.props.setProgress(10);
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=6e7f5f6fedb44570938a9c131812f94e&page=1&pageSize=${this.props.pagesize}`;
     let data = await fetch(url);
+    this.props.setProgress(10);
     let parsedData = await data.json();
     
 
@@ -111,6 +99,8 @@ export default class News extends Component {
       articles: parsedData.articles,
       totalResults: parsedData.totalResults,
     });
+    this.props.setProgress(100);
+
   }
 
 
