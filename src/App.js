@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import News from "./components/News";
 import LoadingBar from 'react-top-loading-bar'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 export default class App extends Component {
   state ={
     progress:0
@@ -82,7 +83,7 @@ export default class App extends Component {
               element={<News setProgress= {this.setProgress} apikey={this.apikey} key="business" country="in" category="business" />}
             />
 
-            <Route
+            <Route 
               exact
               path="/technology"
               element={

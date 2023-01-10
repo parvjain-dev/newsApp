@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 
 import { Link } from "react-router-dom";
 
-export class navbar extends Component {
+const NavBar = ()=> {
 //   static propTypes = {}
 
-  render() {
+
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -52,7 +52,7 @@ export class navbar extends Component {
 </nav>
       </div>
     )
-  }
+
 }
 
-export default navbar
+export default NavBar
